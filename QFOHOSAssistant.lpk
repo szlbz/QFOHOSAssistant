@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="QFOHOSAssistant"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="这是秋风(QQ:315795176)开发的插件
+简化编译OHOS难度"/>
+    <Version Major="1"/>
+    <Files>
+      <Item>
+        <Filename Value="QFCompilerRununit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="QFCompilerRununit"/>
+      </Item>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="languages"/>
+    </i18n>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="SynEditDsgn"/>
+      </Item>
+      <Item>
+        <PackageName Value="IdeDebugger"/>
+      </Item>
+      <Item>
+        <PackageName Value="IdeConfig"/>
+      </Item>
+      <Item>
+        <PackageName Value="IDEIntf"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
